@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(136, 134, 134);
+    color: white;
+
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(200px, auto);
+}
+
+
+p,
+h5 {
+    border: 3px solid rgb(53, 48, 48);
+}
+
+#elemento1 {
+    grid-column: 1 / 4;
+    grid-row: 4;
+    background-color: rgb(77, 77, 207);
+}
+
+#elemento3 {
+    grid-row:4;
+    grid-column: 5 / 5;
+    background-color: rgb(150, 102, 102);
+}
